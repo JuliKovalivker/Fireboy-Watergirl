@@ -38,8 +38,7 @@ public class player : MonoBehaviour
         {
             gameObject.transform.position += new Vector3(0, 0, 0.1f);
         }
-
-        gameObject.transform.rotation = new Vector3(0, 0, 0);
+        
     }
 
     void OnCollisionEnter(Collision coll)
