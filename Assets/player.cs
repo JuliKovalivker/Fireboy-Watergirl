@@ -5,7 +5,7 @@ using UnityEngine;
 public class player : MonoBehaviour
 {
     public int jumpForce = 5;
-    bool hasJump;
+    public bool hasJump;
     Rigidbody RB;
 
     // Start is called before the first frame update
