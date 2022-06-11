@@ -7,11 +7,13 @@ public class player : MonoBehaviour
     public int jumpForce = 5;
     public bool hasJump;
     Rigidbody RB;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         RB = GetComponent<Rigidbody>();
+        
     }
 
     // Update is called once per frame

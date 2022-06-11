@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class camara : MonoBehaviour
 {
-    public GameObject cubo;
+    GameObject cubo;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        cubo = GameObject.Find("Cube(Clone)");
     }
 
     // Update is called once per frame
