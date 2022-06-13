@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -987,7 +987,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366520158}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -227.1, y: -84.7, z: 8.56}
+  m_LocalPosition: {x: -227.1, y: -85.3, z: 8.56}
   m_LocalScale: {x: 5.1786, y: 1, z: 1.6552501}
   m_Children: []
   m_Father: {fileID: 1596584400}
@@ -1557,6 +1557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 875957873}
+  esfera: {fileID: 6906600348336993673, guid: b5581400c9036074da06e7b6f80017fc, type: 3}
 --- !u!1 &715232350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1905,7 +1906,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
