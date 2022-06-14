@@ -8,35 +8,30 @@ public class player : MonoBehaviour
     public int jumpForce = 5;
     public bool hasJump;
     Rigidbody RB;
-    public GameObject moneda;
-    public GameObject plataforma;
-    public GameObject moneda2;
-    public GameObject plataforma2;
-    public GameObject moneda3;
-    public GameObject plataforma3;
+    public GameObject moneda, moneda2, moneda3;
+    public GameObject plataforma, plataforma2, plataforma3;
 
     // Start is called before the first frame update
     void Start()
     {
         RB = GetComponent<Rigidbody>();
+        GameObject clon, clon2, clon3;
+
         int random = Random.Range(1, 33);
         plataforma = GameObject.Find("Cube (" + random + ")");
-        Debug.Log(random);
-        GameObject clon;
+        //Debug.Log(random);
         clon = Instantiate(moneda);
         clon.transform.position = new Vector3(plataforma.transform.position.x, plataforma.transform.position.y + 1, plataforma.transform.position.z);
 
         int random2 = Random.Range(1, 33);
         plataforma2 = GameObject.Find("Cube (" + random2 + ")");
-        Debug.Log(random2);
-        GameObject clon2;
+        //Debug.Log(random2);
         clon2 = Instantiate(moneda2);
         clon2.transform.position = new Vector3(plataforma2.transform.position.x, plataforma2.transform.position.y + 1, plataforma2.transform.position.z);
 
         int random3 = Random.Range(1, 33);
         plataforma3 = GameObject.Find("Cube (" + random3 + ")");
-        Debug.Log(random);
-        GameObject clon3;
+        //Debug.Log(random);
         clon3 = Instantiate(moneda3);
         clon3.transform.position = new Vector3(plataforma3.transform.position.x, plataforma3.transform.position.y + 1, plataforma3.transform.position.z);
 
