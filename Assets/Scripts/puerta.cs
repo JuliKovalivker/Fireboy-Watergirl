@@ -9,11 +9,11 @@ public class puerta : MonoBehaviour
     public GameObject esfera;
     float tiempo;
     float counter;
+    float timer = 2.0f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -24,16 +24,22 @@ public class puerta : MonoBehaviour
 
     }
 
-    void OnCollisionEnter()
+    void OnCollisionStay()
     {
-        for (int i = 0; i < 7; i++)
+        if(timer > 0)
         {
-            Instantiate(esfera);
-            esfera.transform.position = new Vector3(-2f, 49f, 5.41392f);
+            timer -= Time.deltaTime;
         }
-        Debug.Log("Ganaste!");
-        texto.SetActive(true);
-
-
+        if (timer <= 0)
+        {
+            for (int i = 0; i < 7; i++)
+            {
+                Instantiate(esfera);
+                esfera.transform.position = new Vector3(-2f, 49f, 5.41392f);
+            }
+            Debug.Log("Ganaste!");
+            texto.SetActive(true);
+        }
+        
     }
 }

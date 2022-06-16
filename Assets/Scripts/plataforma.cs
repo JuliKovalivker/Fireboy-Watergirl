@@ -2,19 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class texto : MonoBehaviour
+public class plataforma : MonoBehaviour
 {
+    AudioSource audio_;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        audio_ = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("hola");
+        
     }
 
-
+    void OnCollisionEnter()
+    {
+        audio_.Play();
+    }
 }
