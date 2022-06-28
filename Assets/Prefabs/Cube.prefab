@@ -107,9 +107,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpForce: 10
   hasJump: 0
-  moneda: {fileID: 8084240277257462584, guid: 286c6aca906a5e04fa3ce4b23099e822, type: 3}
-  moneda2: {fileID: 8084240277257462584, guid: 286c6aca906a5e04fa3ce4b23099e822, type: 3}
-  moneda3: {fileID: 8084240277257462584, guid: 286c6aca906a5e04fa3ce4b23099e822, type: 3}
+  moneda: {fileID: 7314391600191234779, guid: cdbf99bd9136bc94aaf90e081db724e6, type: 3}
+  moneda2: {fileID: 7314391600191234779, guid: cdbf99bd9136bc94aaf90e081db724e6, type: 3}
+  moneda3: {fileID: 7314391600191234779, guid: cdbf99bd9136bc94aaf90e081db724e6, type: 3}
   plataforma: {fileID: 0}
   plataforma2: {fileID: 0}
   plataforma3: {fileID: 0}

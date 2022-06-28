@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class monedas : MonoBehaviour
 {
-    public Text UIText;
+    /*public Text UIText;
     int contador;
 
     // Start is called before the first frame update
@@ -28,5 +28,5 @@ public class monedas : MonoBehaviour
         Debug.Log(contador);
         UIText.text = contador + " monedas ganadas";
                     
-    }
+    }*/
 }
