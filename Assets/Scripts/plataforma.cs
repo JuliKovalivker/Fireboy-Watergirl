@@ -22,8 +22,5 @@ public class plataforma : MonoBehaviour
     {
         if(col.gameObject.tag == "player")
             audio_.Play();
-        {
-
-        }
     }
 }
