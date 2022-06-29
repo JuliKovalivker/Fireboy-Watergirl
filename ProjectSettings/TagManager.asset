@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Moneda
   - Text
+  - player
   layers:
   - Default
   - TransparentFX

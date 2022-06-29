@@ -3,7 +3,16 @@ guid: b3825a38ef9b07c4881f272c09b35ffe
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - moneda: {fileID: 7314391600191234779, guid: cdbf99bd9136bc94aaf90e081db724e6,
+      type: 3}
+  - moneda2: {fileID: 7314391600191234779, guid: cdbf99bd9136bc94aaf90e081db724e6,
+      type: 3}
+  - moneda3: {fileID: 7314391600191234779, guid: cdbf99bd9136bc94aaf90e081db724e6,
+      type: 3}
+  - plataforma: {instanceID: 0}
+  - plataforma2: {instanceID: 0}
+  - plataforma3: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

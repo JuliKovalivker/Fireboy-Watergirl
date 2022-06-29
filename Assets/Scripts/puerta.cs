@@ -26,7 +26,7 @@ public class puerta : MonoBehaviour
 
     void OnCollisionStay()
     {
-        if(timer > 0)
+        /*if(timer > 0)
         {
             timer -= Time.deltaTime;
         }
@@ -39,7 +39,23 @@ public class puerta : MonoBehaviour
             }
             Debug.Log("Ganaste!");
             texto.SetActive(true);
+        }*/
+
+        for (int i = 0; i < 7; i++)
+            {
+                Instantiate(esfera);
+                esfera.transform.position = new Vector3(-2f, 49f, 5.41392f);
+            }
+            Debug.Log("Ganaste!");
+            texto.SetActive(true);
+        if (timer > 0)
+        {
+            timer -= Time.deltaTime;
         }
-        
+        if(timer >= 4)
+        {
+            Destroy(esfera);
+        }
+
     }
 }

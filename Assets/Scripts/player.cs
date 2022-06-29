@@ -18,20 +18,20 @@ public class player : MonoBehaviour
         GameObject clon, clon2, clon3;
 
         int random = Random.Range(1, 33);
-        plataforma = GameObject.Find("Cube (" + random + ")");
-        //Debug.Log(random);
+        plataforma = GameObject.Find("ground (" + random + ")");
+        Debug.Log(random);
         clon = Instantiate(moneda);
         clon.transform.position = new Vector3(plataforma.transform.position.x, plataforma.transform.position.y + 1, plataforma.transform.position.z);
 
         int random2 = Random.Range(1, 33);
-        plataforma2 = GameObject.Find("Cube (" + random2 + ")");
-        //Debug.Log(random2);
+        plataforma2 = GameObject.Find("ground (" + random2 + ")");
+        Debug.Log(random2);
         clon2 = Instantiate(moneda2);
         clon2.transform.position = new Vector3(plataforma2.transform.position.x, plataforma2.transform.position.y + 1, plataforma2.transform.position.z);
 
         int random3 = Random.Range(1, 33);
-        plataforma3 = GameObject.Find("Cube (" + random3 + ")");
-        //Debug.Log(random);
+        plataforma3 = GameObject.Find("ground (" + random3 + ")");
+        Debug.Log(random);
         clon3 = Instantiate(moneda3);
         clon3.transform.position = new Vector3(plataforma3.transform.position.x, plataforma3.transform.position.y + 1, plataforma3.transform.position.z);
 

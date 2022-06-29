@@ -18,8 +18,12 @@ public class plataforma : MonoBehaviour
         
     }
 
-    void OnCollisionEnter()
+    void OnCollisionEnter(Collision col)
     {
-        audio_.Play();
+        if(col.gameObject.tag == "player")
+            audio_.Play();
+        {
+
+        }
     }
 }

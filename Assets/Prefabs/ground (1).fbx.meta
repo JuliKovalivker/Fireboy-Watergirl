@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b2b31380f7205d4e8d3daf3de3a35db
+guid: 49efcafb370a9154381d2151cf54bd27
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -16,12 +16,12 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: green color palette
-    second: {fileID: 2800000, guid: c7ceba6178ce0a24d84112363df79727, type: 3}
+    second: {fileID: 2800000, guid: 89f74e664585aad4c91e63899c3470a2, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: lH8yTHvm
-    second: {fileID: 2800000, guid: ce3155fe3f2b3d1489a70359ea720014, type: 3}
+    second: {fileID: 2800000, guid: c84f7bede57cde047afe50adc63768d3, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
